@@ -19,3 +19,20 @@ div{
 }
 .box{
 }
+.menu{
+   border-bottom:1px solid red;
+}
+.menu ul{
+   list-style: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+   justify-content: space-evenly;
+}
+.menu ul li{
+   display: flex;
+   padding: 10px 20px;
+   font-size: 20px;
+   border: 1px solid red;
+   border-radius: 15px 15px 0 0;
+}
